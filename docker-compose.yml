@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  yocto:
+    build: .
+    container_name: yocto
+    tty: true
+    volumes:
+      - ./work:/home/yocto/work
