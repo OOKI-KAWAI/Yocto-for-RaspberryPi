@@ -70,3 +70,5 @@ NOW=` head -n 1 $CONFPATH | awk '{ print $1}'`
 if [[ "$NOW" != "MACHINE" ]]; then
     sed -i '1iMACHINE \?= \"raspberrypi4-64\"\n' $CONFPATH
 fi
+
+# Yocto-for-RaspberryPi | MIT License | https://github.com/OOKI-KAWAI/Yocto-for-RaspberryPi/blob/main/LICENSE

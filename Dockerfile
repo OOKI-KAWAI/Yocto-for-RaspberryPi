@@ -65,3 +65,5 @@ COPY setup.sh /home/$USERNAME/
 COPY build.sh /home/$USERNAME/
 RUN mkdir work
 RUN sudo chown -R $USERNAME:$USERNAME .
+
+# Yocto-for-RaspberryPi | MIT License | https://github.com/OOKI-KAWAI/Yocto-for-RaspberryPi/blob/main/LICENSE
