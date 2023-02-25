@@ -1,5 +1,8 @@
 #! /bin/bash
 
+set -x
+set -e
+
 HOMEDIR=`pwd`
 REPODIR=$HOMEDIR/work
 BRANCH=kirkstone
